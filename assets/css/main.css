@@ -4687,3 +4687,16 @@ input, select, textarea {
 		}
 
 	}
+
+	.container {
+		display: flex; 
+		flex-wrap: wrap;
+	  }
+	  
+	  .column {
+		flex-basis: 33.33%;
+  		padding: 15px;
+  		box-sizing: border-box;
+  		border: 1px solid #eeeeee;
+		text-align: center;
+	  }
